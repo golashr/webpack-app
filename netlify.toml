@@ -4,8 +4,8 @@
 # “command” is your build command.
 
 [build]
-  base    = ""
-  publish = "build"
+  base    = "."
+  publish = "dist"
   command = "npm run build"
 
 # Production context: All deploys to the main
